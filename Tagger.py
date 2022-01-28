@@ -24,11 +24,11 @@ tekli_calisan = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**🌀LuciTaggerBot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
+  await event.reply("**🌀AzraTaggerbot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
                     buttons=(
                    
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/adataggerbot?startgroup=a')],
-                      [Button.url('Admin', 'https://t.me/b4f2f')],
+                      [Button.url('Grup', 'https://t.me/chpgenclikresmi')],
                       [Button.url('Kanal ', 'https://t.me/liemuzik')],
 		      [Button.url('Developer👨🏻‍💻', 'https://t.me/askmgel')],
                     ),
