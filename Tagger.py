@@ -40,7 +40,7 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/adataggerbot?startgroup=a')],
-                      [Button.url('Admin', 'https://t.me/b4f2f')],
+                      [Button.url('Grup', 'https://t.me/chpgenclikresmi')],
                       [Button.url('Kanal', 'https://t.me/liemuzik')],
 		      [Button.url('Developer🧑‍🔧', 'https://t.me/askmgel')],
                     ),
@@ -250,7 +250,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"👤 - [{usr.first_name}](tg://user?id={usr.id}) \n"
       if event.chat_id not in tekli_calisan:
-        await event.respond("Işlem Başarıyla Durduruldu\n\n**Buda sizin reklamınız ola bilir @LuciBots**❌**")
+        await event.respond("Işlem Başarıyla Durduruldu\n\n**Kanalıma abone olur musunuz @liemuzik**❌**")
         return
       if usrnum == 1:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
